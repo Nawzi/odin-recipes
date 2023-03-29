@@ -19,21 +19,18 @@
     margin: auto;
 }
 
-ul.unordered {
+ul.unordered li {
     list-style: none;
     text-align: center;
-    width: 30%;
-    margin: auto;
-    margin-top: 15px;
+    margin-bottom: 25px;
 }
 
-ul li {
+#pasta,
+#bean,
+#cupcake {
     background-color: hsl(0, 0%, 23%);
     border-radius: 15px;
     padding: 10px;
-    margin-bottom: 10px;
-
-    
 }
 
 a {
@@ -48,12 +45,3 @@ a:hover {
     font-size: 25px;
 }
 
-
-
-/* #pasta,
-#bean,
-#cupcake {
-    background-color: rgb(255, 169, 9);
-    border-radius: 5px;
-    padding-bottom: 10px;
-} */
